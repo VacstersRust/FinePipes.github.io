@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 485" width="680" height="485" fill="none">
+<defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" stroke="#61849B" stroke-opacity=".12"/></pattern></defs><rect width="680" height="485" fill="url(#g)"/>
+<g stroke="#B8D8E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+<path d="M130 345l145-83 154 88-146 84zM130 345V174l145-84 154 90v170M275 90v172" stroke-dasharray="5 8" opacity=".6"/>
+<path d="M154 170v137l125 72 133-77V192" stroke="#75C8E4" stroke-width="8"/>
+<path d="M184 187v112l95 56 112-62V215" stroke="#ED9D84" stroke-width="6"/>
+<path d="M154 238l45 26m-15-38l35 20" stroke="#75C8E4" stroke-width="8"/>
+<path d="M280 379v-82l86-50m-88 108v-48l86-50" stroke="#93DBE6" stroke-width="6"/>
+<circle cx="154" cy="238" r="10" fill="#1A4056"/><circle cx="184" cy="227" r="8" fill="#1A4056"/>
+<path d="M340 242l45-27 42 23-44 25zM341 242v14l42 24 44-25v-17"/><path d="M382 239v-38q0-12 12-12h16v19" stroke-width="5"/><path d="M284 374l-25 15"/>
+</g>
+<g stroke="#8FBACB" opacity=".7"><path d="M154 170l-65-37H30m392 85l94-53h80M280 379l65 39h195"/><circle cx="154" cy="170" r="5" fill="#8FBACB"/><circle cx="423" cy="218" r="5" fill="#8FBACB"/></g>
+<g fill="#B3D1DC" font-family="monospace" font-size="12"><text x="35" y="114">A / ВВОД</text><text x="519" y="156">B / УЗЕЛ</text><text x="430" y="410">C / СЛИВ</text></g>
+</svg>

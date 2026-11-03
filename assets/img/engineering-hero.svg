@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="920" viewBox="0 0 940 920" fill="none" role="img" aria-labelledby="art-title art-description">
+<title id="art-title">Аксонометрический чертёж сантехнического узла</title>
+<desc id="art-description">Изометрическая система водопроводных труб, смесителя и раковины на инженерной сетке.</desc>
+<defs>
+ <pattern id="micro" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" stroke="#7393A5" stroke-opacity=".095" stroke-width="1"/></pattern>
+ <pattern id="major" width="120" height="120" patternUnits="userSpaceOnUse"><path d="M120 0H0V120" stroke="#9BC1D0" stroke-opacity=".14" stroke-width="1"/></pattern>
+ <linearGradient id="cold" x1="125" y1="35" x2="785" y2="715"><stop stop-color="#85E3F0"/><stop offset="1" stop-color="#338BB9"/></linearGradient>
+ <linearGradient id="hot" x1="100" y1="100" x2="690" y2="800"><stop stop-color="#F7B48E"/><stop offset="1" stop-color="#E86D52"/></linearGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<rect width="940" height="920" fill="url(#micro)"/><rect width="940" height="920" fill="url(#major)"/>
+<g stroke="#8CAAB8" stroke-opacity=".18" stroke-width="1">
+ <path d="M-20 282L470 0L1020 318M-20 342L470 60L1020 378M-20 402L470 120L1020 438M-20 462L470 180L1020 498M-20 522L470 240L1020 558M-20 582L470 300L1020 618"/>
+</g>
+<g stroke="#D3E6EC" stroke-width="1.4" opacity=".37" stroke-dasharray="7 8">
+ <path d="M178 252L477 80L779 254L481 426Z"/><path d="M178 252V596L480 771V426M779 254V600L480 771"/>
+ <path d="M178 596L480 424L779 600M477 80V426"/>
+</g>
+<g fill="#A7D7E5" font-family="monospace" font-size="16" letter-spacing="2">
+ <text x="48" y="65">SHEET A—01</text><text x="48" y="91" fill="#5C8194">WATER CIRCUIT / 3D</text>
+ <text x="705" y="74">1 : 25</text><text x="746" y="100" fill="#5C8194">REV.02</text>
+</g>
+<g stroke="#B1DBE6" stroke-opacity=".45" stroke-width="1.4">
+ <path d="M132 265V608M120 265H144M120 608H144M132 265l-9 11m9-11l9 11m-9 332l-9-11m9 11l9-11"/>
+ <path d="M195 683L474 844M195 670L183 691M474 831L462 852M195 683l16-2m-16 2l7-14m272 175l-10-15m10 15l-18-3"/>
+ <path d="M810 274V603M800 274H820M800 603H820"/>
+</g>
+<g fill="#ABC9D6" font-family="monospace" font-size="14" opacity=".95"><text x="91" y="450" transform="rotate(-90 91 450)">2400 mm</text><text x="280" y="752" transform="rotate(30 280 752)">1800 mm</text><text x="825" y="466" transform="rotate(-90 825 466)">Ø 20</text></g>
+<!-- pipe shadows -->
+<g stroke="#5EE0ED" stroke-opacity=".13" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" filter="url(#soft)"><path d="M269 198V462L475 580L687 458V311"/><path d="M314 225V445L482 541L634 453V342"/></g>
+<!-- main cold pipe -->
+<path id="cold-route" d="M269 198V462L475 580L687 458V311" stroke="url(#cold)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M269 198V462L475 580L687 458V311" stroke="#D0F6F8" stroke-opacity=".58" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- hot water -->
+<path id="hot-route" d="M314 225V445L482 541L634 453V342" stroke="url(#hot)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- connectors -->
+<g stroke="#B7DCE6" stroke-width="2.4" fill="#173C53">
+ <path d="M257 269h24v27h-24zM258 397h22v28h-22zM672 383h30v30h-30z"/><circle cx="269" cy="285" r="5" fill="#92EDF2"/><circle cx="687" cy="397" r="5" fill="#92EDF2"/>
+ <path d="M301 359h26v18h-26z" stroke="#EF997F"/><path d="M621 386h26v20h-26z" stroke="#EF997F"/>
+</g>
+<!-- tee junction -->
+<path d="M475 580V656" stroke="url(#cold)" stroke-width="10" stroke-linecap="round"/><path d="M475 647L518 672" stroke="url(#cold)" stroke-width="10" stroke-linecap="round"/><g stroke="#9EDDEA" stroke-width="2"><circle cx="475" cy="580" r="15" fill="#1E4B62"/><circle cx="475" cy="580" r="6" fill="#9EDDEA"/><circle cx="475" cy="650" r="10" fill="#1E4B62"/></g>
+<!-- sink outlines and fixture -->
+<g stroke="#D1E9F0" stroke-width="2.3" stroke-linejoin="round">
+ <path d="M535 352l91-52 103 60-91 53-103-61Z" fill="#24465A" fill-opacity=".35"/>
+ <path d="M550 352l78-44 84 50-76 43-86-49Z"/>
+ <path d="M573 352l54-31 60 35-53 31-61-35Z" fill="#0F2C3D"/>
+ <path d="M535 352v20l103 59 91-53v-18M638 413v18"/>
+ <path d="M632 355v-48q0-13 14-13h27q14 0 14 13v14" stroke="#C8EAF4" stroke-width="6" stroke-linecap="round"/>
+ <path d="M686 321h-20" stroke="#C8EAF4" stroke-width="7" stroke-linecap="round"/>
+ <ellipse cx="634" cy="354" rx="10" ry="6" fill="#346A7A"/>
+</g>
+<!-- wall-mounted valve -->
+<g transform="translate(257 214)">
+ <circle cx="0" cy="0" r="25" fill="#153D54" stroke="#C5EAF2" stroke-width="2.5"/><circle cx="0" cy="0" r="10" stroke="#C5EAF2" stroke-width="3"/>
+ <path d="M-26 -29l52 58M-29 26l58-52" stroke="#C5EAF2" stroke-width="4.8" stroke-linecap="round"/>
+</g>
+<g stroke="#9CC7D4" stroke-width="1.3" fill="none">
+ <path d="M260 214L164 163H70M684 306L797 205H865M479 580l100 114h216"/>
+ <circle cx="260" cy="214" r="5" fill="#9CC7D4"/><circle cx="684" cy="306" r="5" fill="#9CC7D4"/><circle cx="479" cy="580" r="5" fill="#9CC7D4"/>
+</g>
+<g font-family="monospace" font-size="16" fill="#D9ECF0" letter-spacing="1.5">
+ <text x="69" y="139">V—04</text><text x="70" y="158" fill="#9CBAC8" font-size="12">SHUT-OFF</text>
+ <text x="775" y="176">F—02</text><text x="775" y="195" fill="#9CBAC8" font-size="12">MIXER</text>
+ <text x="675" y="710">J—08</text><text x="676" y="729" fill="#9CBAC8" font-size="12">MAIN JOINT</text>
+</g>
+</svg>
